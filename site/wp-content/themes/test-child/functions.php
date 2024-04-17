@@ -34,6 +34,7 @@ require_once('inc/custom-posts/broadcast.php');
 require_once('inc/custom-posts/sermon.php');
 require_once('inc/custom-posts/minister.php');
 require_once('inc/custom-posts/timeline-event.php');
+require_once('inc/custom-posts/pastors-post.php');
 require_once('inc/custom-posts/upcoming_event.php');
 require_once('inc/custom-roles/roles.php');
 

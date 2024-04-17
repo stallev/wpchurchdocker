@@ -8,7 +8,7 @@
 # Updates URL in database so the site can run on localhost
 #
 
-export current_url=http://ec2-54-167-235-116.compute-1.amazonaws.com
+export current_url=http://ec2-18-212-9-110.compute-1.amazonaws.com
 
 mysql -uroot -p$MYSQL_ROOT_PASSWORD -D$MYSQL_DATABASE -e "
 UPDATE ${WORDPRESS_TABLE_PREFIX}options SET option_value = REPLACE(option_value, '${PREV_URL}', '${current_url}') WHERE option_name = 'home' OR option_name = 'siteurl'; 

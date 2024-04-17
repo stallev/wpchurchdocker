@@ -5,6 +5,7 @@ use Carbon_Fields\Field;
 add_action('carbon_fields_register_fields', 'register_carbon_fields_home_page');
 function register_carbon_fields_home_page() {
     $tab_name = 'main_page';
+    // $field_name = 'blocks_on_main_page';
     
     Container::make( 'post_meta', 'Home page information' )
     ->where( 'post_id', '=', 60 )

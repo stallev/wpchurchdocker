@@ -269,14 +269,9 @@ class Settings {
 	/**
 	 * Initialize the styles and scripts used on the settings admin page
 	 *
-	 * @param ?string $hook_suffix The current admin page.
+	 * @param string $hook_suffix The current admin page.
 	 */
-	public function initialize_settings_page_scripts( ?string $hook_suffix ): void {
-
-		if ( ! $hook_suffix ) {
-			return;
-		}
-
+	public function initialize_settings_page_scripts( string $hook_suffix ): void {
 		$this->settings_api->admin_enqueue_scripts( $hook_suffix );
 	}
 
