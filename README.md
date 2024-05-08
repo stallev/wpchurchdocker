@@ -21,7 +21,7 @@ Easily set up a local development environment for your existing WordPress site u
 2. **Database Prep**: Create a dump from the live database and save it as `mysqldumps/backup.sql`. 🗃️
 3. **Content Prep**: Copy `wp-content` from your site to `site/wp-content`. 📂
 4. **Change Urls**: Change first previous name to next domain name in the sql dump file.
-5. **Configuration**: Set variables in `.env`. 📝
+5. **Configuration**: Set variables in `.env` and in the migrate.sh,. 📝
 6. **Run**: In the project root, execute:
 
 ```

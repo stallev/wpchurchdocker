@@ -211,8 +211,8 @@ CREATE TABLE `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://ec2-18-205-106-197.compute-1.amazonaws.com', 'yes'),
-(2, 'home', 'http://ec2-18-205-106-197.compute-1.amazonaws.com', 'yes'),
+(1, 'siteurl', 'http://ec2-54-167-40-32.compute-1.amazonaws.com', 'yes'),
+(2, 'home', 'http://ec2-54-167-40-32.compute-1.amazonaws.com', 'yes'),
 (3, 'blogname', 'Bible Baptist Church', 'yes'),
 (4, 'blogdescription', '', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
